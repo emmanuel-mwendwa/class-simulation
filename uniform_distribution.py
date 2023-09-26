@@ -18,3 +18,5 @@ ax = sns.distplot(data_uniform,
                  color='skyblue',
                  hist_kws={"linewidth": 15, 'alpha':1})
 ax.set(xlabel='Uniform Distribution', ylabel='Frequency')
+
+plt.show()

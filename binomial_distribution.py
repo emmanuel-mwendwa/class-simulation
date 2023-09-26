@@ -11,3 +11,5 @@ ax = sns.distplot(data_binom,
                  color='skyblue',
                  hist_kws={"linewidth": 15, "alpha": 1})
 ax.set(xlabel='Binomial Distribution', ylabel='Frequency')
+
+plt.show()

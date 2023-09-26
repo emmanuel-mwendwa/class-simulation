@@ -14,3 +14,5 @@ ax = sns.distplot(data_expon,
                  hist_kws={"linewidth":15, 'alpha':1})
 
 ax.set(xlabel='Exponential Distribution', ylabel='Frequency')
+
+plt.show()
